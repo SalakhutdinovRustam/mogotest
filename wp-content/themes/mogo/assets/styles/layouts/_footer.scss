@@ -1,0 +1,201 @@
+.footer {
+  padding-top: 74px;
+}
+
+.footer-column {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.footer__logo {
+  margin-bottom: 42px;
+
+  img {
+    filter: contrast(0.3);
+  }
+}
+
+.footer__about {
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999;
+    margin-bottom: 49px;
+  }
+}
+
+.footer__social {
+  margin-bottom: 37px;
+}
+
+.number_followers {
+  font-size: 14px;
+  text-align: left;
+  color: #333;
+  margin-bottom: 27px;
+
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 194px;
+    border-top: 1px solid #e5e5e5;
+    z-index: -1;
+  }
+}
+
+.follow_us {
+  margin-bottom: 37px;
+
+  a {
+    margin-right: 14px;
+    color: #95e1d3;
+    font-size: 16px;
+  }
+
+  span {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.6;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999;
+    margin-right: 23px;
+  }
+}
+
+.footer_form {
+  .wpcf7-form {
+    position: relative;
+
+    .wpcf7-email {
+      width: 230px;
+      height: 40px;
+      font-family: "Roboto", sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: italic;
+      padding-left: 13px;
+      text-align: left;
+      color: #ccc;
+      border: solid 1px #e7e7e7;
+    }
+
+    .site-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 40px;
+      width: 150px;
+      background-color: #95e1d3;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      border: solid 1px #e7e7e7;
+    }
+  }
+}
+
+.madeby {
+  text-align: center;
+}
+
+.footer__blog {
+  display: flex;
+  margin-bottom: 31px;
+
+  .blog_img {
+    margin-right: 20px;
+
+    img {
+      min-width: 119px;
+      height: 79px;
+      object-fit: cover;
+    }
+  }
+
+  .blog_txt {
+    padding-top: 21px;
+  }
+
+  .blog_desc {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #333;
+  }
+
+  .blog_date {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999;
+  }
+}
+
+.footer__widget {
+  padding-left: 30px;
+
+  h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    color: #333;
+    margin-bottom: 40px;
+  }
+}
+
+.footer__insta {
+  display: flex;
+
+  .insta_img {
+    img {
+      max-width: 88px;
+      height: 88px;
+      object-fit: cover;
+      margin-right: 2px;
+      margin-bottom: 2px;
+    }
+  }
+}
+
+.insta-link {
+  margin-top: 20px;
+
+  a {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+  }
+}

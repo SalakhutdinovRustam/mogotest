@@ -1,0 +1,223 @@
+/* --------------------------------- Responsive Media Quaries ----------------------------- */
+
+/* @media only screen and (min-width: 1600px) and (max-width: 1900px) {
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+} */
+
+/* @media only screen and (min-width: 1200px) {
+} */
+
+/* Medium Device = 1200px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .row_slider {
+    .owl-dots {
+      bottom: -50px !important;
+    }
+
+    .owl-dot {
+      width: 210px !important;
+    }
+  }
+
+  .blog__item__pic {
+    img {
+      width: 260px !important;
+      height: 200px !important;
+      object-fit: cover;
+      margin-right: 10px !important;
+      max-width: unset;
+    }
+  }
+
+  .blog__item__date {
+    left: 0 !important;
+  }
+}
+
+/* Tablet Device = 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .title-top {
+    h2 {
+      font-size: 65px !important;
+    }
+
+    h1 {
+      font-size: 110px !important;
+    }
+  }
+
+  .row_slider {
+    .owl-dot {
+      width: 150px !important;
+    }
+  }
+
+  .blog-post {
+    flex-direction: column;
+  }
+
+  .blog__item__date {
+    left: 149px !important;
+  }
+
+  .post-announce {
+    margin-bottom: 50px !important;
+
+    h3,
+    .txt-excer {
+      padding: 0 23% !important;
+    }
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+}
+
+/* Wide Mobile = 480px */
+
+@media only screen and (max-width: 767px) {
+  .header__right__widget {
+    display: flex;
+    padding-top: 7px;
+  }
+
+  .title-top {
+    h2 {
+      font-size: 65px !important;
+    }
+
+    h1 {
+      font-size: 80px !important;
+    }
+  }
+
+  .top-block-row {
+    padding-top: 120px !important;
+    min-height: 700px !important;
+  }
+
+  .row_slider {
+    .owl-dots {
+      display: none;
+    }
+  }
+
+  .footer-column {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+
+  .footer_form {
+    .wpcf7-form {
+      .site-btn {
+        right: 41px !important;
+      }
+    }
+  }
+
+  .blog-post {
+    flex-direction: column;
+  }
+
+  .blog__item__date {
+    left: 55px !important;
+  }
+
+  .post-announce {
+    margin-bottom: 50px !important;
+
+    h3,
+    .txt-excer {
+      padding: 0 23% !important;
+    }
+  }
+
+  .reviews {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer_form {
+    .wpcf7-form {
+      .site-btn {
+        right: 150px !important;
+      }
+    }
+  }
+
+  .post-announce {
+    margin-bottom: 50px !important;
+
+    h3,
+    .txt-excer {
+      padding: 0 5% !important;
+    }
+  }
+
+  .blog__item__date {
+    left: 11px !important;
+  }
+}
+
+/* Small Device = 320px */
+
+@media only screen and (max-width: 479px) {
+  .header__right__widget {
+    display: flex;
+    padding-top: 7px;
+  }
+
+  .title-top {
+    h2 {
+      font-size: 40px !important;
+    }
+
+    h1 {
+      font-size: 40px !important;
+    }
+  }
+
+  .top-block-row {
+    padding-top: 120px !important;
+    min-height: 600px !important;
+  }
+
+  .footer_form {
+    .wpcf7-form {
+      position: unset !important;
+
+      .site-btn {
+        position: unset !important;
+      }
+    }
+  }
+
+  .blog__item__pic {
+    img {
+      width: 200px !important;
+      height: 160px !important;
+      object-fit: cover;
+      margin-right: 10px !important;
+      max-width: unset;
+    }
+  }
+
+  .post-announce {
+    margin-bottom: 50px !important;
+
+    h3,
+    .txt-excer {
+      padding: 0 5% !important;
+    }
+  }
+
+  .blog__item__date {
+    left: 40px !important;
+  }
+}
